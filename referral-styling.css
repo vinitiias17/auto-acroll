@@ -1,0 +1,405 @@
+/*****************************************************
+ * generic styling for ALS elements: outer container
+ ******************************************************/
+
+.als-container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	z-index: 0;
+	padding: 20px 0 0 15px;
+}
+
+/****************************************
+ * viewport styling
+ ***************************************/
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+/***************************************************
+ * wrapper styling
+ **************************************************/
+
+.als-wrapper {
+	position: relative;
+	/* if you are using a list with <ul> <li> */
+	list-style: none;
+}
+
+/*************************************
+ * item: single list element
+ ************************************/
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: left;
+	cursor: pointer;
+	float: left;
+	font-family: 'HelveticaNeue';
+	font-size:12px;
+	margin-bottom:8px;
+}
+.als-item img {
+	display:inline-block;
+	float:left;
+	margin-right:12px;
+	border: 1px solid #e3e2e2;
+	}
+.als-item span {
+
+display: block;
+padding: 0 45px 0 0;
+
+}
+/*start of referral page styling*/
+#referal-new-existing-wrap {
+	width:1000px;
+}
+#referal-new-existing-wrap .referal-banner-left {
+	width:720px;
+	float:left;
+	position:relative;
+}
+#referal-new-existing-wrap .referal-banner-left a {
+position: absolute;
+bottom: 17px;
+right: 35px;
+color:#372b34;
+background:#a9f7e4;
+width:155px;
+height:40px;
+border-radius:7px;
+font-family: 'HelveticaNeueBold';
+font-size:14px;
+line-height: 40px;
+}
+#referal-new-existing-wrap .referal-banner-right {
+	width:280px;
+	float:left;
+	background: #f2f2f1;
+	height:496px;
+}
+.referal-banner-right h4 {
+	font-family: 'bebas_neueregular';
+font-size: 43px;
+font-weight: normal;
+text-align: left;
+margin-top: 37px;
+padding: 0 0 0 15px;
+color:#1e1d1c;
+}
+#referal-winner-list {
+	background:url(images/refer-text-scroll-top.jpg)13px top no-repeat;
+}
+.als-viewport {
+	background:url(images/refer-text-scroll-bottom.jpg)0px bottom no-repeat;
+}
+.ui-widget-content { clear:both;}
+.ui-tabs-nav li {float:left;
+background: #f2f2f1;
+padding: 12px 30px;
+margin-right: 6px;
+width: 198px;
+}
+
+.ui-tabs-nav li a {
+	font-family: 'bebas_neueregular';
+	font-size:24px;
+	color:#cbcbcb;
+	border-bottom:1px solid #cbcbcb;
+}
+.ui-state-active a {
+	color:#313131 !important;
+	border-bottom:1px solid #313131 !important;
+}
+.ui-tabs-nav {
+	display: block;
+float: left;
+position: relative;
+left: 15em;
+margin-top: 65px;
+}
+#tabs-1, #tabs-2 {
+	background-color:#f2f2f1;
+	text-align:left;
+	padding:20px 38px;
+}
+.referal_customer_tabs #tabs-1 h2, .referal_customer_tabs #tabs-2 h2{
+color: #f65d81;
+font-size: 47px;
+font-family: 'bebas_neueregular';
+font-weight: bold;
+margin-bottom: 0;
+}
+h2.refer_tab_title {
+	text-align:center !important;
+	padding-left: 12px;
+}
+.step_odd .stepodd-img, .step_odd .stepodd-details {float:left;}
+.step_text {
+	font-family: 'HelveticaNeueLight';
+	font-size:20px;
+	color:#3e3e3e;
+}
+.step_odd .stepodd-details {
+	padding-left:40px;
+	width:550px;
+}
+.step_even .stepeven-img {float:right;}
+.step_text {
+	font-family: 'HelveticaNeueLight';
+	font-size:20px;
+	color:#3e3e3e;
+}
+.step_even .stepeven-details {
+	padding-left:40px;
+	float:left;
+	width:550px;
+}
+.stepeven-details img {float:right; padding-right: 15px;}
+.step_even {float:right;}
+.step_three .stepodd-details img {
+	padding: 112px 0 0 0;
+position: relative;
+left: -15px;
+}
+.refer_termcondition {
+text-align:left;
+}
+.refer_termcondition h4 {
+color: #1a8fa1;
+font-family: 'HelveticaNeue';
+font-weight: normal;
+font-size: 15px;
+margin-top: 70px;
+border-bottom: 1px solid;
+float: left;
+}
+.refer_termcondition ol {
+	clear:both;
+	text-indent: -3px;
+padding-left: 20px;
+}
+.refer_termcondition ol li {
+	list-style-type: decimal;
+font-family: 'HelveticaNeue';
+font-size: 12px;
+color: #2f2f2f;
+line-height: 18px;
+}
+.refer_start_shop_block_footer h4 {
+	color: #f65d81;
+font-size: 50px;
+font-family: 'bebas_neueregular';
+font-weight: bold;
+margin-bottom:0px;
+
+}
+.refer_start_shop_block_footer {
+	padding:0 30px;
+	margin-top: 80px;
+}
+.refer_start_shop_block_footer .home_mc3 {
+margin-top: -10px;
+border-bottom: 1px solid #999999;
+padding-bottom: 30px;
+}
+/*end of referral page styling*/
+
+/*================
+start of referral stats popup styling
+======================*/
+#referal_popup__stats_main {
+	width:820px;
+	height:380px;
+	position:relative;
+}
+.referal_popup__stats_right_top {
+font-family: 'BebasNeueRegular';
+}
+.referal_popup__stats_left {
+	float:left;
+	width:378px;
+	height:380px;
+	background:#f2f2f1;
+	position:relative;
+	text-align:left;
+}
+.referal_popup__stats_right:before {
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:350px;
+	background: #939a97;
+	left:0;
+	position:absolute;
+	top:15px;
+}
+.referal_popup__stats_right_top {
+	height:132px; 
+	background:#f2f2f1;
+}
+.referal_popup__stats_right_bottom {
+	background:#74d6bd;
+	height:243px;
+	padding-top:5px;
+}
+.referal_popup__stats_right {
+	text-align:center;
+	position:relative;
+	float:left;
+	width: 441px;
+
+}
+#referal_popup__stats_main .referal_popup__stats_right_top img {
+	padding-top:80px;
+
+}
+.refer-social-links ul li {float:left; padding-right:16px;}
+.refer-social-links {
+text-align: left;
+margin-left: 30px;
+	margin-top: 40px;
+}
+.refer-social-links h5 {
+	font-family: 'HelveticaNeueLight';
+	font-size:13px;
+	font-weight: normal;
+}
+.refer-social-links a.refer-fb-invite {
+	background:url(images/refer-fb-invite-icon.png) left top no-repeat;
+	text-indent:-9999px;
+	width:68px;
+	height:32px;
+	display:inline-block;
+}
+.refer-social-links a.refer-fb-share {
+	background:url(images/refer-fb-share-icon.png) left top no-repeat;
+	text-indent:-9999px;
+	width:68px;
+	height:32px;
+	display:inline-block;
+}
+.refer-social-links a.refer-email {
+	background:url(images/refer-email-icon.png) left top no-repeat;
+	text-indent:-9999px;
+	width:71px;
+	height:32px;
+	display:inline-block;
+}
+.refer-social-links a.refer-share-link {
+	background:url(images/refer-shared-link-icon.png) left top no-repeat;
+	text-indent:-9999px;
+	width:136px;
+	height:32px;
+	display:inline-block;
+}
+.refer-social-links a.refer-twitter {
+	background:url(images/refer-twitter-icon.png) left top no-repeat;
+	text-indent:-9999px;
+	width:70px;
+	height:32px;
+	display:inline-block;
+}
+.refer-social-links a.refer-linkedin {
+	background:url(images/refer-linkedin-icon.png) left top no-repeat;
+	text-indent:-9999px;
+	width:79px;
+	height:32px;
+	display:inline-block;
+}
+.refer-footer-links {
+	clear: both;
+float: right;
+padding-right: 20px;
+font-size: 10px;
+}
+.refer-footer-links a {
+	font-family: 'HelveticaNeueLight';
+	font-size:11px;
+	color:#2f2f2f;
+	padding-left: 8px;
+}
+span.refer-user-email {
+	display:block;
+	margin-bottom: 28px;
+}
+.referal_user_details {
+	padding-left: 48px;
+padding-top: 48px;
+}
+span.refer-user-img {
+	margin-right: 7px;
+display: inline-block;
+border: 1px solid #e3e2e2;
+float:left;
+}
+
+.referal_user_stats {
+	border-top: 1px solid #939a97;
+clear: both;
+width: 310px;
+margin: 0 0 0 48px;
+margin-top: 20px;
+float: left;
+}
+span.refer-user-email {
+	font-family: 'HelveticaNeueLight';
+	font-size:13px;
+	color:#2f2f2f;
+}
+span.refer-user-name {
+font-family: 'HelveticaNeueLight';
+	font-size:22px;
+	color:#2f2f2f;
+}
+.referal_user_stats h5 {
+font-family: 'HelveticaNeueLight';
+font-size: 20px;
+color: #2f2f2f;
+padding-top: 30px;
+float: left;
+border-bottom: 1px solid #2f2f2f;
+line-height: 18px;
+}
+#referal_ponts_block {
+	font-family: 'HelveticaNeueLight';
+	font-size:15px;
+	position:relative;
+	left:-43px;
+}
+#referal_ponts_block  td {
+	padding-bottom:5px;
+	text-align:center;
+}
+a.refer-link_howitwork {
+	font-family: 'HelveticaNeueLight';
+	font-size:13px;
+	display:block;
+	border:1px solid #c9c9c8;
+	padding:13px 15px;
+	width:100px;
+	margin: 10px 0 10px 60px;
+	color:#2f2f2f;
+}
+a.refer-link_view_more {
+	font-family: 'HelveticaNeueLight';
+	font-size:13px;
+	color:#2f2f2f;
+	margin-left: 75px;
+}
+.referal_stats_title, .referal_stats_points {
+	color:#0097e6;
+}
+#referal-winner-list {
+margin: auto;
+width: 238px;
+}
+/*================
+end of referral stats popup styling
+======================*/
